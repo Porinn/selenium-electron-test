@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Selenium Electron Test</title>
+        <link rel="stylesheet" href="index.css">
+        <script type="text/javascript" src="controller.js"></script>
+    </head>
+    <body>
+        <div id='button-area'>
+            <button onclick='clickButton()'>실행</button>
+            <button onclick='clearResult()'>초기화</button>            
+        </div>
+        <div id='result-area'>
+            <table>
+                <thead>
+                    <tr>
+                        <th>테스트케이스</th>
+                        <th>결과</th>
+                    </tr>
+                </thead>
+                <tbody id='result-area-tbody'>
+                    
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

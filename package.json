@@ -1,0 +1,25 @@
+{
+  "name": "selenium-electron-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "porinn",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^4.0.2",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Porinn/selenium-electron-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Porinn/selenium-electron-test/issues"
+  },
+  "homepage": "https://github.com/Porinn/selenium-electron-test#readme",
+  "description": ""
+}
